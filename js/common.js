@@ -28,9 +28,7 @@ $(function(){
 	    mounted:function(){
 	        var list = [
 				{name:'首页',url:'index.html'},
-				{name:'天气',url:'weather.html'},
-				{name:'随机',url:'random.html'},
-				{name:'地点',url:'location.html'}
+				{name:'手机号码归属地',url:'MobilePlace.html'}
 			];
 			this.list = list;
 			this.$nextTick(function(){
